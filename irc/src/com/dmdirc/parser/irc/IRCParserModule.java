@@ -32,7 +32,7 @@ import dagger.Provides;
 /**
  * Dagger module for injecting the main IRC parser and its dependencies.
  */
-@Module(includes = ProcessorsModule.class, injects = ProcessingManager.class)
+@Module(includes = ProcessorsModule.class)
 public class IRCParserModule {
 
     private final IRCParser parser;

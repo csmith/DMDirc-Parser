@@ -28,7 +28,7 @@ import dagger.Provides;
 /**
  * Dagger module that supplies a set of processors.
  */
-@Module(library = true, complete = false)
+@Module
 public class ProcessorsModule {
 
     @Provides(type = Provides.Type.SET)
